@@ -1,0 +1,16 @@
+--- Tracing Path (Multi-Goal): Node 49 -> Node 20 ---
+
+[Step 1] At Node 49 (Goal: 20)
+  >> Agent Chose: 41 (Max Q: 73.4078)
+  -> Moved to 41
+
+[Step 2] At Node 41 (Goal: 20)
+  >> Agent Chose: 29 (Max Q: 90.0612)
+  -> Moved to 29
+
+[Step 3] At Node 29 (Goal: 20)
+  >> Agent Chose: 20 (Max Q: 98.3277)
+  -> Moved to 20
+
+SUCCESS: Reached Target 20
+Full Path: [49, 41, 29, 20]

@@ -1,0 +1,44 @@
+--- Tracing Path: Node 0 -> Node 49 ---
+Topology: 50 nodes, Seed 42
+
+Start State: 0
+
+[Step 1] At Node 0
+  Valid Neighbors: [30, 46, 5, 24, 29]
+  Model Decision Logic:
+    - Action (Go to 30): Q-Value = 74.3658
+    - Action (Go to 46): Q-Value = 74.6549
+    - Action (Go to 5): Q-Value = 67.5090
+    - Action (Go to 24): Q-Value = 71.7466
+    - Action (Go to 29): Q-Value = 77.2254
+  >> Agent Chose: 29 (Max Q: 77.2254)
+  -> Moved to 29 (Reward: -6)
+
+[Step 2] At Node 29
+  Valid Neighbors: [34, 42, 41, 38, 18, 20, 0]
+  Model Decision Logic:
+    - Action (Go to 34): Q-Value = 73.5512
+    - Action (Go to 42): Q-Value = 79.5224
+    - Action (Go to 41): Q-Value = 87.1059
+    - Action (Go to 38): Q-Value = 74.1902
+    - Action (Go to 18): Q-Value = 66.0932
+    - Action (Go to 20): Q-Value = 84.0620
+    - Action (Go to 0): Q-Value = 64.6183
+  >> Agent Chose: 41 (Max Q: 87.1059)
+  -> Moved to 41 (Reward: -2)
+
+[Step 3] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: 94.0)
+
+SUCCESS: Reached Target 49
+Full Path: [0, 29, 41, 49]

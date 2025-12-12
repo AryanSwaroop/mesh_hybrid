@@ -1,11 +1,12 @@
 import time
 from mesh_rl.env import SimpleMeshEnv
 
-def demo(agent, delay=0.5):
+def demo(agent, delay=0.5, env=None):
     """
     Runs a demo episode with the trained agent.
     """
-    env = SimpleMeshEnv()
+    if env is None:
+        env = SimpleMeshEnv()
     state = env.reset()
     done = False
     

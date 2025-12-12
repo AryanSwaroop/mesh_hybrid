@@ -1,0 +1,58 @@
+{
+  "0->2->3": {
+    "count": 23,
+    "avg_reward": 94.0,
+    "avg_latency": 6.0,
+    "avg_hops": 2.0,
+    "percentage": 4.62
+  },
+  "0->1->3": {
+    "count": 434,
+    "avg_reward": 94.02,
+    "avg_latency": 5.98,
+    "avg_hops": 2.0,
+    "percentage": 87.15
+  },
+  "0->1->0->1->3": {
+    "count": 26,
+    "avg_reward": 89.35,
+    "avg_latency": 10.65,
+    "avg_hops": 4.0,
+    "percentage": 5.22
+  },
+  "0->1->0->2->3": {
+    "count": 5,
+    "avg_reward": 89.0,
+    "avg_latency": 11.0,
+    "avg_hops": 4.0,
+    "percentage": 1.0
+  },
+  "0->2->0->1->3": {
+    "count": 4,
+    "avg_reward": 86.5,
+    "avg_latency": 13.5,
+    "avg_hops": 4.0,
+    "percentage": 0.8
+  },
+  "0->2->0->2->3": {
+    "count": 4,
+    "avg_reward": 85.5,
+    "avg_latency": 14.5,
+    "avg_hops": 4.0,
+    "percentage": 0.8
+  },
+  "0->2->0->2->0->1->3": {
+    "count": 1,
+    "avg_reward": 80.0,
+    "avg_latency": 20.0,
+    "avg_hops": 6.0,
+    "percentage": 0.2
+  },
+  "0->1->0->2->0->1->3": {
+    "count": 1,
+    "avg_reward": 82.0,
+    "avg_latency": 18.0,
+    "avg_hops": 6.0,
+    "percentage": 0.2
+  }
+}

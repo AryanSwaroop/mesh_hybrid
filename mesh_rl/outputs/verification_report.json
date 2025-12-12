@@ -1,0 +1,349 @@
+{
+  "graph_stats": {
+    "num_nodes": 50,
+    "num_edges": 182,
+    "max_possible_edges": 1225,
+    "density": 0.14857142857142858,
+    "avg_degree": 7.28,
+    "fully_connected": true,
+    "reachable_nodes": 50
+  },
+  "path_49_to_6": {
+    "start": 15,
+    "target": 35,
+    "direct_connection": false,
+    "start_neighbors": [
+      4,
+      6,
+      7,
+      9,
+      10,
+      16,
+      19,
+      32,
+      36,
+      43
+    ],
+    "target_neighbors": [
+      6,
+      7,
+      9,
+      16,
+      37,
+      47,
+      49
+    ],
+    "common_neighbors": [
+      6,
+      7,
+      9,
+      16
+    ],
+    "shortest_path": [
+      15,
+      9,
+      35
+    ],
+    "shortest_path_length": 2,
+    "agent_path": [
+      15,
+      16,
+      35
+    ],
+    "agent_path_length": 2,
+    "agent_success": true,
+    "q_values_at_start": {
+      "9": 37.1846900216671,
+      "16": 82.95173740976374,
+      "19": 30.97460697511015,
+      "36": 33.49924476015847,
+      "7": 23.978679745368552,
+      "32": 24.24875697663301,
+      "6": 36.190077214013044,
+      "4": 17.753570519815767,
+      "43": 16.01498477590181,
+      "10": 54.45587083579597
+    },
+    "chosen_first_action": 16
+  },
+  "agent_info": {
+    "q_table_size": 17836,
+    "non_zero_q_values": 16274,
+    "sample_q_values": [
+      42.94909033892682,
+      48.67919018433344,
+      58.57807728250711,
+      59.38074559536693,
+      53.57834256776645,
+      70.51715838236414,
+      82.36485232633169,
+      41.6793500400581,
+      28.3341516600352,
+      50.54771794429341
+    ],
+    "epsilon": 0.049911691230058335,
+    "alpha": 0.1,
+    "gamma": 0.95
+  },
+  "test_paths": {
+    "49_6": {
+      "start": 49,
+      "target": 6,
+      "direct_connection": false,
+      "start_neighbors": [
+        4,
+        8,
+        33,
+        35,
+        41
+      ],
+      "target_neighbors": [
+        7,
+        8,
+        15,
+        32,
+        35,
+        36,
+        38,
+        42
+      ],
+      "common_neighbors": [
+        8,
+        35
+      ],
+      "shortest_path": [
+        49,
+        8,
+        6
+      ],
+      "shortest_path_length": 2,
+      "agent_path": [
+        49,
+        8,
+        6
+      ],
+      "agent_path_length": 2,
+      "agent_success": true,
+      "q_values_at_start": {
+        "41": 13.723795913773618,
+        "33": 21.07393927022605,
+        "8": 43.52032118649274,
+        "35": 0.0,
+        "4": 35.39099527654323
+      },
+      "chosen_first_action": 8
+    },
+    "0_49": {
+      "start": 0,
+      "target": 49,
+      "direct_connection": false,
+      "start_neighbors": [
+        2,
+        5,
+        7,
+        24,
+        29,
+        30,
+        33,
+        42,
+        46
+      ],
+      "target_neighbors": [
+        4,
+        8,
+        33,
+        35,
+        41
+      ],
+      "common_neighbors": [
+        33
+      ],
+      "shortest_path": [
+        0,
+        33,
+        49
+      ],
+      "shortest_path_length": 2,
+      "agent_path": [
+        0,
+        33,
+        49
+      ],
+      "agent_path_length": 2,
+      "agent_success": true,
+      "q_values_at_start": {
+        "30": 43.295453111330744,
+        "46": 45.431183797569815,
+        "5": 45.56887162250989,
+        "24": 35.9804778850414,
+        "29": 20.355287032680913,
+        "42": 40.42219686794853,
+        "2": 46.20033037094319,
+        "7": 65.67319231154433,
+        "33": 85.87776702686573
+      },
+      "chosen_first_action": 33
+    },
+    "10_20": {
+      "start": 10,
+      "target": 20,
+      "direct_connection": false,
+      "start_neighbors": [
+        3,
+        15,
+        16,
+        17,
+        22,
+        26,
+        27,
+        31,
+        33,
+        48
+      ],
+      "target_neighbors": [
+        1,
+        17,
+        29,
+        33,
+        38,
+        45
+      ],
+      "common_neighbors": [
+        17,
+        33
+      ],
+      "shortest_path": [
+        10,
+        33,
+        20
+      ],
+      "shortest_path_length": 2,
+      "agent_path": [
+        10,
+        17,
+        20
+      ],
+      "agent_path_length": 2,
+      "agent_success": true,
+      "q_values_at_start": {
+        "22": 55.32637985850656,
+        "31": 52.204132991807604,
+        "27": 41.318221986424895,
+        "48": 58.280830982336205,
+        "16": 36.92341368145005,
+        "26": 28.58617309506648,
+        "3": 58.03555883824538,
+        "33": 55.51081484849737,
+        "15": 20.603081896953046,
+        "17": 78.86412404988833
+      },
+      "chosen_first_action": 17
+    },
+    "5_45": {
+      "start": 5,
+      "target": 45,
+      "direct_connection": false,
+      "start_neighbors": [
+        0,
+        32,
+        36,
+        39,
+        44,
+        46
+      ],
+      "target_neighbors": [
+        1,
+        2,
+        4,
+        19,
+        20,
+        27,
+        42,
+        48
+      ],
+      "common_neighbors": [],
+      "shortest_path": [
+        5,
+        36,
+        4,
+        45
+      ],
+      "shortest_path_length": 3,
+      "agent_path": [
+        5,
+        0,
+        42,
+        45
+      ],
+      "agent_path_length": 3,
+      "agent_success": true,
+      "q_values_at_start": {
+        "36": 0.0,
+        "44": 27.204913246899427,
+        "46": 0.0,
+        "0": 56.282136784076464,
+        "32": 42.37704820882751,
+        "39": 36.046465434177236
+      },
+      "chosen_first_action": 0
+    },
+    "15_35": {
+      "start": 15,
+      "target": 35,
+      "direct_connection": false,
+      "start_neighbors": [
+        4,
+        6,
+        7,
+        9,
+        10,
+        16,
+        19,
+        32,
+        36,
+        43
+      ],
+      "target_neighbors": [
+        6,
+        7,
+        9,
+        16,
+        37,
+        47,
+        49
+      ],
+      "common_neighbors": [
+        6,
+        7,
+        9,
+        16
+      ],
+      "shortest_path": [
+        15,
+        9,
+        35
+      ],
+      "shortest_path_length": 2,
+      "agent_path": [
+        15,
+        16,
+        35
+      ],
+      "agent_path_length": 2,
+      "agent_success": true,
+      "q_values_at_start": {
+        "9": 37.1846900216671,
+        "16": 82.95173740976374,
+        "19": 30.97460697511015,
+        "36": 33.49924476015847,
+        "7": 23.978679745368552,
+        "32": 24.24875697663301,
+        "6": 36.190077214013044,
+        "4": 17.753570519815767,
+        "43": 16.01498477590181,
+        "10": 54.45587083579597
+      },
+      "chosen_first_action": 16
+    }
+  }
+}

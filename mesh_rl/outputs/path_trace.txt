@@ -1,0 +1,1109 @@
+--- Tracing Path: Node 0 -> Node 8 ---
+Topology: 50 nodes, Seed 42
+
+Start State: 0
+
+[Step 1] At Node 0
+  Valid Neighbors: [30, 46, 5, 24, 29]
+  Model Decision Logic:
+    - Action (Go to 30): Q-Value = 74.3658
+    - Action (Go to 46): Q-Value = 74.6549
+    - Action (Go to 5): Q-Value = 67.5090
+    - Action (Go to 24): Q-Value = 71.7466
+    - Action (Go to 29): Q-Value = 77.2254
+  >> Agent Chose: 29 (Max Q: 77.2254)
+  -> Moved to 29 (Reward: -6)
+
+[Step 2] At Node 29
+  Valid Neighbors: [34, 42, 41, 38, 18, 20, 0]
+  Model Decision Logic:
+    - Action (Go to 34): Q-Value = 73.5512
+    - Action (Go to 42): Q-Value = 79.5224
+    - Action (Go to 41): Q-Value = 87.1059
+    - Action (Go to 38): Q-Value = 74.1902
+    - Action (Go to 18): Q-Value = 66.0932
+    - Action (Go to 20): Q-Value = 84.0620
+    - Action (Go to 0): Q-Value = 64.6183
+  >> Agent Chose: 41 (Max Q: 87.1059)
+  -> Moved to 41 (Reward: -2)
+
+[Step 3] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 4] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 5] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 6] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -7)
+
+[Step 7] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 8] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 9] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 10] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 11] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 12] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -7)
+
+[Step 13] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 14] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 15] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 16] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 17] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 18] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 19] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 20] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 21] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 22] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 23] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -7)
+
+[Step 24] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 25] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 26] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 27] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 28] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 29] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 30] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 31] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 32] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -7)
+
+[Step 33] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 34] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 35] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 36] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 37] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 38] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 39] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 40] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 41] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 42] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 43] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 44] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 45] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 46] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 47] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 48] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 49] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 50] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 51] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 52] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 53] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 54] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 55] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 56] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 57] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 58] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 59] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 60] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 61] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 62] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 63] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 64] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 65] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 66] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 67] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 68] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 69] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 70] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 71] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 72] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 73] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 74] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 75] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 76] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 77] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 78] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 79] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 80] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 81] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 82] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 83] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 84] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 85] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 86] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 87] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -6)
+
+[Step 88] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 89] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 90] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 91] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 92] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 93] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 94] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 95] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 96] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -6)
+
+[Step 97] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 98] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -5)
+
+[Step 99] At Node 41
+  Valid Neighbors: [8, 49, 31, 29, 42, 43, 3]
+  Model Decision Logic:
+    - Action (Go to 8): Q-Value = 89.8837
+    - Action (Go to 49): Q-Value = 94.5664
+    - Action (Go to 31): Q-Value = 74.7699
+    - Action (Go to 29): Q-Value = 80.1864
+    - Action (Go to 42): Q-Value = 78.0679
+    - Action (Go to 43): Q-Value = 82.1803
+    - Action (Go to 3): Q-Value = 74.7442
+  >> Agent Chose: 49 (Max Q: 94.5664)
+  -> Moved to 49 (Reward: -5)
+
+[Step 100] At Node 49
+  Valid Neighbors: [41, 33, 8]
+  Model Decision Logic:
+    - Action (Go to 41): Q-Value = 0.0000
+    - Action (Go to 33): Q-Value = 0.0000
+    - Action (Go to 8): Q-Value = 0.0000
+  >> Agent Chose: 41 (Max Q: 0.0000)
+  -> Moved to 41 (Reward: -27.0)
+
+FAILURE: Ended at 41 (Max steps reached?)
+Full Path: [0, 29, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41, 49, 41]

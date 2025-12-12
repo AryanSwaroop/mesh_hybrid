@@ -1,0 +1,13 @@
+2025-12-12 11:23:44,358 - INFO - Starting experiment with topology=classic, episodes=500
+2025-12-12 11:23:44,364 - INFO - Episode 50: Avg Reward=86.44, Epsilon=0.49, Success Rate=0.96
+2025-12-12 11:23:44,369 - INFO - Episode 100: Avg Reward=92.68, Epsilon=0.26, Success Rate=1.00
+2025-12-12 11:23:44,375 - INFO - Episode 150: Avg Reward=93.82, Epsilon=0.15, Success Rate=1.00
+2025-12-12 11:23:44,381 - INFO - Episode 200: Avg Reward=93.98, Epsilon=0.09, Success Rate=1.00
+2025-12-12 11:23:44,388 - INFO - Episode 250: Avg Reward=93.96, Epsilon=0.05, Success Rate=1.00
+2025-12-12 11:23:44,394 - INFO - Episode 300: Avg Reward=94.04, Epsilon=0.05, Success Rate=1.00
+2025-12-12 11:23:44,398 - INFO - Episode 350: Avg Reward=93.50, Epsilon=0.05, Success Rate=1.00
+2025-12-12 11:23:44,404 - INFO - Episode 400: Avg Reward=93.96, Epsilon=0.05, Success Rate=1.00
+2025-12-12 11:23:44,408 - INFO - Episode 450: Avg Reward=93.76, Epsilon=0.05, Success Rate=1.00
+2025-12-12 11:23:44,413 - INFO - Episode 500: Avg Reward=93.76, Epsilon=0.05, Success Rate=1.00
+2025-12-12 11:23:44,414 - INFO - Generating outputs...
+2025-12-12 11:23:44,856 - INFO - Experiment complete. Artifacts saved to outputs
